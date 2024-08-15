@@ -6,12 +6,12 @@
 ### manual.py 
     Code change to implement manual-instrunetation
 
-To Run
+To Run \    
 `python wsgi.py`
 
 To Run With Auto Instrumentation(Without Collector):
 ```
-export OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
+    export OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
     opentelemetry-instrument \
         --traces_exporter console \
         --metrics_exporter console \
@@ -32,7 +32,7 @@ To Run With Auto Instrumentation(With Collector):
 ```
 
 To Build Docker Image:
-> Normal Image(Without Auto Instrumentation):
-        `$ docker build -f Dockerfile.latest -t otel-python:latest .`
-> Instrumented Images
-        `$ docker build -f Dockerfile.auto -t otel-python:auto .`
+- Normal Image(Without Auto Instrumentation): \
+  `$ docker build -f Dockerfile.latest -t otel-python:latest .`
+- Instrumented Images \
+  `$ docker build -f Dockerfile.auto -t otel-python:auto .`

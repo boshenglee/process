@@ -3664,11 +3664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leebo\\OneDrive\\Desktop\\bosheng\\load-test-dotnet\\load-test-dotnet.csproj",
+      "projectUniqueName": "C:\\Users\\leebo\\OneDrive\\Desktop\\bosheng\\process\\load-test-dotnet\\load-test-dotnet.csproj",
       "projectName": "load-test-dotnet",
-      "projectPath": "C:\\Users\\leebo\\OneDrive\\Desktop\\bosheng\\load-test-dotnet\\load-test-dotnet.csproj",
+      "projectPath": "C:\\Users\\leebo\\OneDrive\\Desktop\\bosheng\\process\\load-test-dotnet\\load-test-dotnet.csproj",
       "packagesPath": "C:\\Users\\leebo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leebo\\OneDrive\\Desktop\\bosheng\\load-test-dotnet\\obj\\",
+      "outputPath": "C:\\Users\\leebo\\OneDrive\\Desktop\\bosheng\\process\\load-test-dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
