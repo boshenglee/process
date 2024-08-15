@@ -1,0 +1,12 @@
+FLASK_APP=wsgi.py
+FLASK_ENV=development
+
+FLASK_HOST=0.0.0.0
+FLASK_PORT=5000
+
+OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4417
+OTEL_SERVICE_NAME=roll-dice-service
+
+# SETTINGS
+# 0 is auto instrumentation , 1 is manual instrumentation
+INSTRUMENTATION=1

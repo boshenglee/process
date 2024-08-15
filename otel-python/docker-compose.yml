@@ -1,0 +1,21 @@
+services:
+  otel-python:
+    image: otel-python:latest
+    # image: otel-python:auto
+    build: .
+    env_file:
+      - .env
+    environment:
+      - OTEL_SERVICE_NAME=roll-dice-service
+      - OTEL_TRACES_EXPORTER=otlp,console
+      - OTEL_METRICS_EXPORTER=otlp,console
+      - OTEL_LOGS_EXPORTER=otlp,console
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://52.220.68.85:4317
+      - OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
+    ports:
+      - "5000:5000"
+    networks:
+      - bridge
+    container_name: otel-python
+    volumes:
+      - .:/app
