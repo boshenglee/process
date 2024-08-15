@@ -1,11 +1,10 @@
-A repository to instrument python app with OpenTelemtry
+# Instrument python app with OpenTelemtry
 
 basic.py 
     To test auto-instrumentation without any code change
 
 manual.py 
     Code change to implement manual-instrunetation
-
 
 To Run:
     python wsgi.py
@@ -29,7 +28,7 @@ TO Run With Auto Instrumentation(With Collector):
         python wsgi.py
 
 To Build Docker Image:
-    Normal Image(Without Instrumentation):
+    Normal Image(Without Auto Instrumentation):
         $ docker build -f Dockerfile.latest -t otel-python:latest .
     Instrumented Images
         $ docker build -f Dockerfile.auto -t otel-python:auto .
