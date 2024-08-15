@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LPfnDnOTiR9a7HkcnXj4edmJCwLdU6LMSGS9Z59INMg=",
+  "Source": "load-test-dotnet",
+  "BasePath": "_content/load-test-dotnet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,13 @@
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\load-test-dotnet.exe
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\appsettings.json
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\load-test-dotnet.dll
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\load-test-dotnet.deps.json
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\load-test-dotnet.runtimeconfig.json
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\load-test-dotnet.pdb
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\Cassandra.dll
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\K4os.Compression.LZ4.dll
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\Newtonsoft.Json.dll
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\System.CodeDom.dll
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\System.Management.dll
+C:\Users\leebo\OneDrive\Desktop\bosheng\load-test-dotnet\bin\Release\net8.0\publish\runtimes\win\lib\netcoreapp2.0\System.Management.dll
