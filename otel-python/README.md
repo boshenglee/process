@@ -1,15 +1,15 @@
 # Instrument python app with OpenTelemtry
 
 ### basic.py
-    To test auto-instrumentation without any code change
+> To test auto-instrumentation without any code change
 
 ### manual.py 
-    Code change to implement manual-instrunetation
+> Code change to implement manual-instrunetation
 
-To Run \    
+### To Run  
 `python wsgi.py`
 
-To Run With Auto Instrumentation(Without Collector):
+### To Run With Auto Instrumentation(Without Collector):
 ```
     export OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
     opentelemetry-instrument \
@@ -20,7 +20,7 @@ To Run With Auto Instrumentation(Without Collector):
         python wsgi.py
 ```
 
-To Run With Auto Instrumentation(With Collector):
+### To Run With Auto Instrumentation(With Collector):
  ```
     export OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
     opentelemetry-instrument \
@@ -31,7 +31,7 @@ To Run With Auto Instrumentation(With Collector):
         python wsgi.py
 ```
 
-To Build Docker Image:
+### To Build Docker Image:
 - Normal Image(Without Auto Instrumentation): \
   `$ docker build -f Dockerfile.latest -t otel-python:latest .`
 - Instrumented Images \
