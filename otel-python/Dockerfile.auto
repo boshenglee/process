@@ -15,41 +15,7 @@ RUN pip install opentelemetry-distro \
 	opentelemetry-exporter-otlp-proto-grpc
 
 #install opentelemetry packages
-RUN pip install opentelemetry-api                \
-	opentelemetry-distro                         \
-	opentelemetry-exporter-otlp                  \
-	opentelemetry-exporter-otlp-proto-common     \
-	opentelemetry-exporter-otlp-proto-grpc       \
-	opentelemetry-exporter-otlp-proto-http       \
-	opentelemetry-instrumentation                \
-	opentelemetry-instrumentation-aio-pika       \
-	opentelemetry-instrumentation-aiohttp-client \
-	opentelemetry-instrumentation-aiohttp-server \
-	opentelemetry-instrumentation-asgi           \
-	opentelemetry-instrumentation-asyncio        \
-	opentelemetry-instrumentation-dbapi          \
-	opentelemetry-instrumentation-flask          \
-	opentelemetry-instrumentation-grpc           \
-	opentelemetry-instrumentation-jinja2         \
-	opentelemetry-instrumentation-logging        \
-	opentelemetry-instrumentation-psycopg		 \
-	opentelemetry-instrumentation-psycopg2		 \
-	opentelemetry-instrumentation-pymongo        \
-	opentelemetry-instrumentation-redis          \
-	opentelemetry-instrumentation-requests       \
-	opentelemetry-instrumentation-sqlalchemy     \
-	opentelemetry-instrumentation-sqlite3        \
-	opentelemetry-instrumentation-system-metrics \
-	opentelemetry-instrumentation-threading      \
-	opentelemetry-instrumentation-urllib         \
-	opentelemetry-instrumentation-urllib3        \
-	opentelemetry-instrumentation-wsgi           \
-	opentelemetry-propagator-aws-xray            \
-	opentelemetry-proto                          \
-	opentelemetry-sdk                            \
-	opentelemetry-semantic-conventions           \
-	opentelemetry-test-utils                     \
-	opentelemetry-util-http
+RUN opentelemetry-bootstrap -a install
 
 
 # Copy the current directory contents into the container at /app

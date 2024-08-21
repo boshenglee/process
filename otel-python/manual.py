@@ -134,12 +134,12 @@ def create_app():
 
             if player:
                 player_register(player)
-                roll_log.info(f"{player} is rolling the dice: {result}")
+                roll_log.info(f"{player} is rolling the dice: {result}", extra={"namespace":"roll_log"})
                 carrier["message"] = f"{player} is rolling the dice: {result}"
                 message_queue.put(carrier)
                 return result
             else:
-                roll_log.info("Anonymous player is rolling the dice: %s", result)
+                roll_log.info("Anonymous player is rolling the dice: %s", result, extra={"namespace":"roll_log"})
                 carrier["message"] = f"Anonymous player is rolling the dice: {result}",
                 message_queue.put(carrier)
                 return result
@@ -151,7 +151,7 @@ def create_app():
 
             number = request.args.get('number', type=int)
             dice = number
-            dice_log.info(f"Change a new dice with {number} number")
+            dice_log.info(f"Change a new dice with {number} number", extra={"namespace":"dice_log"})
             return str(dice)
     
     def player_register(player):
